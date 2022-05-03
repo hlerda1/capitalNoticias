@@ -7,3 +7,7 @@ Se obtuvieron las fuentes de este artículo del siguiente sitio: https://www.lac
 26/04/2022
 Se agregó formulario de registración
 Se agregó pagina en construcción
+
+03/05/2022
+Se agrego la pagina de noticia2.html y style.css
+Se agregaron imagenes para noticia2.html
