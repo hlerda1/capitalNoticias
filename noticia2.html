@@ -7,10 +7,10 @@
         <title>El tiempo en Rosario: la primera semana hábil de mayo arranca con un día ventoso, húmedo y frío</title>
     </head>
     <body>
-        <header id="siteheader" class="site-header">
-            <div class="site-top-nav">
-                <nav>
-                    <ul class="topmenu flex-container align-center justify-center">
+        <header>
+            <div>
+                <nav class="table">
+                    <ul id="menu_1">
                         <li><a href="https://inmuebles.lacapital.com.ar/" title="La Capital | Inmuebles" alt="La Capital | Inmuebles">Inmuebles</a></li>
                         <li><a href="https://motores.lacapital.com.ar/motores/" title="La Capital | Motores" alt="La Capital | Motores">Motores</a></li>
                         <li><a href="https://www.lacapital.com.ar/secciones/trabajo.html" title="La Capital | Trabajo" alt="La Capital | Trabajo">Trabajo</a></li>
@@ -19,25 +19,25 @@
                     </ul>
                 </nav>
             </div>
-            <div class="site-header__main-part flex-container align-center justify-between outer-container">
-                <div class="left-part flex-container align-center">
-                    <div>
+            <div class="row">
+                <div class="block-left">
+                    <!-- <div> -->
                         <a href="./enConstrucción.html" title="Abrir menú" >
                             <img src="./Imagenes/menu.jpg" alt="menu">
                         </a>
-                    </div>
-                    <div>
+                    <!-- </div> -->
+                    <!-- <div> -->
                         <a href="./enConstrucción.html" title="Notificación" >
                             <img src="./Imagenes/campana.jpg" alt="campana">
                         </a>
-                    </div>
+                    <!-- </div> -->
                 </div>
-                <div>
+                <div class="block">
                     <a href="./capitalNoticias.html">
                         <img src="./Imagenes/Logo.JPG" alt="La Capital">
                     </a>
                 </div>
-                <div>
+                <div class="block-right">
                     <a href="./formularioSuscripcion.html">
                         <button type="button" class="btn" id="suscribirme">Suscribirme</button>
                     </a>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div>
-                <ul class="bottommenu flex-container aling-center justify-between">
+                <ul id="menu_2">
                     <li><a href="https://www.lacapital.com.ar/secciones/ultimo-momento.html" title="La Capital | Últimas Noticias">Últimas Noticias</a></li>
                     <li><a href="https://www.lacapital.com.ar/secciones/laciudad.html" title="La Capital | Ciudad">Ciudad</a></li>
                     <li><a href="https://www.lacapital.com.ar/secciones/ovacion.html" title="La Capital | Ovación">Ovación</a></li>
@@ -60,20 +60,20 @@
             </div>
         </header>
         <main>
-            <div>
-                <br><p>Publicity Banner</p><br>
+            <div id="banner">
+                <br><p>COMPRE ALGO</p><br>
             </div>
             <div>
-                <div class="nota-left-column">
-                    <article>
+                <div id="article_box">
+                    <article class="article-left">
                         <div>
                             <div></div>
                             <h1>
                                 El tiempo en Rosario: la primera semana hábil de mayo arranca con un día ventoso, húmedo y frío
                             </h1>
-                            <div>
+                            <h3>
                                 Según los pronósticos del Servicio Meteorológico Nacional, para este lunes se espera una temperatura máxima de 18 grados.
-                            </div>
+                            </h3>
                             <div>
                                 <div>
                                     <span> 2 de mayo 2022</span>
@@ -83,10 +83,10 @@
                             </div>
                         </div>
                         <div>
-                            <picture class="">
+                            <figure>
                                 <img src="./Imagenes/eltiempo.jpg" alt="el tiempo">
                                 <figcaption>Rosario y la región arrancan la semana con tiempo ventoso, húmedo y frío. En los próximos días el sol estará un poco más presente.".</figcaption>
-                            </picture>
+                            </figure>
                         </div>
                         <div>
                             <p>
@@ -107,7 +107,7 @@
                         <div>
                             <p>
                                 Con relación al resto de la semana, el organismo nacional anticipa para mañana martes buen 
-                                <a href="https://www.lacapital.com.ar/tiempo-a23951.html" class="agrupador" rel="23951">tiempo</a>
+                                <a href="https://www.lacapital.com.ar/tiempo-a23951.html">tiempo</a>
                                 . En este caso, podría darse un retroceso de la nubosidad, pero igual habrá que estar atentos al frío. Para mañana se espera una temperatura más baja en las primeras horas de la madrugada, sería alrededor de 4 grados, y que el sol caliente un poquito nomás porque la máxima llegará a los 20.
                             </p>
                             <p>
@@ -115,14 +115,45 @@
                             </p>
                         </div>
                     </article>
+                    <article class="article-right">
+                        <div id="banner-right">
+                            <p>COMPRE ALGO</p>
+                        </div>
+                        <div>
+                            <h2>Lo más leido</h2>
+                            <p>Murió la mujer baleada en un ataque en el que asesinaron a su pareja y a su hijo de un año</p>
+                            <p>Cómo es el test de inteligencia más rápido del mundo y solo aprueba el 17% de las personas</p>
+                            <p>Un joven recibió un tiro en la cabeza y otro en el cuello cuando estaba en un auto</p>
+                            <p>Marco Ruben anuncia su retiro del fútbol profesional y se despide en el Gigante</p>
+                        </div>
+                    </article>
                 </div>
-                <div class="nota-right-column">
+                <div>
 
                 </div>
             </div>
         </main>
         <footer>
-
+            <div class="row">
+                <div class="block-footer">
+                    <p>La Capital</p>
+                </div>
+                <div class="block-footer">
+                    <p>Diario La Capital</p>
+                    <p>Diario Uno Santa Fe</p>
+                    <p>Diario Uno Entre Rios</p>
+                    <p>Agroclave</p>
+                    <p>infoComercial</p>
+                </div>
+                <div class="block-footer">
+                    <p>La Ocho AM830</p>
+                    <p>La Red Rosario FM 98.3</p>
+                    <p>LT15 Concordia AM 560</p>
+                </div>
+                <div class="block-footer">
+                    <p>Del Siglo FM 99.5</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
